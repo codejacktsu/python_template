@@ -45,7 +45,7 @@ jobs:
       # Run linter
       - name: Run Ruff
         run: |
-          ruff
+          ruff check
 
   # deploy:
   #   # The deploy job needs to wait for the build job to finish successfully
